@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*网站头部 和 阅读页*/
+.topshop,#header,.activelist,#footer{min-width: 1150px;}
+.btnupload2{display:none !important;}
+.btnupload3{display:block !important;}
+.mainpart{margin:auto;width:1150px;}
+.login-bar-con{right: 450px;}
+.search-bar-con{width: 450px;}
+.bigsearch .stext{
+	width:290px;padding:0 5px;
+	background-position:left 0;
+}
+.readshop li{padding: 3px 2px 0;}
+.title-suggest{max-width: 84%}
+
+/*toolbar*/
+#toolbar .min-search-form .min-text input{width: 120px;}
+#toolbar.toolbar-focus .min-search-form .min-text input{width: 217px}
+.search-else-tips .sug-title,
+.search-else-tips b{max-width: 160px;}
+
+#search-way-doc b,
+#search-way-all b,
+#textSearchResultDiv b{max-width: 85px;}
+.tb-item.fr{width: 198px;}
+.toolbar-focus .tb-item.fr{
+	width: 110px;
+	/*opacity:0;
+	filter:alpha(opacity=0);
+	transform:scale(0);*/
+}
+.brush-types span{margin-right: 8px;}
+.pink-box{margin: 7px 15px 7px 0;}
+.pointer-label{top: 8px;right: 0;}
+.font-selected{width: 222px;}
+.font-selected ul{width: 220px;}
+
+/*分类*/
+.side-corpus li .title{width: 190px;}
+.imgtxt05 .topic a{max-width: 620px;}
+
+/*找文档列表页*/
+.completionLeft-detail{width: 880px;}
+.header_search .text{width: 779px;}
+/*找文档详情页*/
+.detail_nav_top{width: 1150px;}
+.detail{width: 1150px;}
+.each_task_con{width: 860px;}
+.completionLeft{width: 880px;}
+/*道客圈*/
+.cricle-container{width: 1150px;}
+.circle-l{width: 890px;}
+.smiliesbox img{margin: 10px 13px;}
+.oth-comment-container .smiliesbox img{margin: 10px 10px;}
+.topic-det-author-right{width: 788px;}
+.topic-det-dis-con .smiliesbox img{	margin: 10px 13px;}
+.topic-det-dis-con .oth-comment-bottom .smiliesbox img{margin: 10px 10px !important;}
+.status-item .topic-det-dis-con .smiliesbox img{	margin: 10px 12px;}
+.status-item .topic-det-dis-con .oth-comment-bottom .smiliesbox img{margin: 10px 9px;}
+.oth-comment-container .two-level .oth-comment2-itemLi .smiliesbox img{margin: 10px 8px;}
+.home-content{width: 1150px;}
+.book-det{max-width: 645px;}
+.homepage-con .perRmain-circle .book-det{max-width: 635px !important;}
+.book-det-txt.his-img .txt-wrap{width: 485px;}
+
+/*文辑的列表页*/
+.wrapper{width: 1150px;}
+.corpus .con{width: 900px;}
+/*文辑详情页*/
+.corpus-detail{width: 1150px;}
+.detail-con{width: 870px;}
+
+
+/*任务其他-详情页*/
+.process{margin: 15px 0 0 120px;}
+/*vip*/
+.vipPrivileges-content li{width: 272px;}
+.bookline li{width: 176px;}
+.bookface{width: 174px;height: 250px;}
+.servicediv{width: 565px;}
+.servicediv img{margin-left: 47px;}
+.servicediv-r{width: 305px;*width:303px;margin-left: 30px;}
+.viplev li{width: 272px;}

@@ -1,0 +1,36 @@
+.footer {
+  background: #4c4c4c;
+  color: white;
+}
+
+#footer {
+  min-width: 1150px;
+}
+
+.footer .mainpart {
+  padding: 10px 0;
+  line-height: 25px;
+}
+
+.mainpart {
+  margin: auto;
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.service-qq {
+  display: block;
+  width: 96px;
+  height: 25px;
+  background: url(http://res.doc88.com/assets/images/service-qq-bg.png)
+    no-repeat;
+  cursor: pointer;
+}

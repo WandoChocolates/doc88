@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  font-size: 100%;
+  font: 12px/1.5 "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+  background: url(https://www.doc88.com//assets/images/skin/skin-paper1-img.png)
+    repeat fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
