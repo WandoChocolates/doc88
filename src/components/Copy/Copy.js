@@ -1,5 +1,4 @@
 import React from "react";
-import "react-jsx-html-comments";
 
 import "./1150.css";
 import "./core-v2.css";

@@ -31,8 +31,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      {/* end footer */}
-      <react-comment> end footer </react-comment>
     </React.Fragment>
   );
 }

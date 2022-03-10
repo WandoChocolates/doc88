@@ -1,5 +1,5 @@
 import React from "react";
-import "./ToolBar.css";
+import "./ToolBar.scss";
 
 export default function ToolBar() {
   return (

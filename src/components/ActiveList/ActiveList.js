@@ -121,7 +121,6 @@ export default function ActiveList() {
           </div>
         </div>
       </div>
-      <react-comment> end activelist </react-comment>
     </React.Fragment>
   );
 }
