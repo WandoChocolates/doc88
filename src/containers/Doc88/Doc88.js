@@ -7,14 +7,17 @@ import Content from "../Content/Content";
 import ActiveList from "../../components/ActiveList/ActiveList";
 import Footer from "../../components/Footer/Footer";
 
+import TopLayerShop from "../../components/Copy/Copy";
+
 export default function Doc88() {
   return (
     <React.Fragment>
       <Header />
-      {/* <ToolBar />
+      <ToolBar />
       <Content />
       <ActiveList />
-      <Footer />*/}
+      <TopLayerShop />
+      <Footer />
     </React.Fragment>
   );
 }

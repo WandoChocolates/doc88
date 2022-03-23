@@ -1,0 +1,30 @@
+.footer {
+  background: #4c4c4c ;
+  color: white;
+
+  .mainpart {
+    padding: 10px 0;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    .copyright {
+      a {
+        color: #fff;
+        font-size: 12px;
+      }
+    }
+
+    .service-qq {
+      display: block;
+      width: 96px;
+      height: 25px;
+      background: url(http://static.doc88.com/assets/images/service-qq-bg.png) no-repeat;
+      cursor: pointer;
+    }
+
+    .service-qq:hover {
+      background-position: 0 -25px;
+    }
+  }
+}
