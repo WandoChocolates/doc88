@@ -59,7 +59,6 @@ export default function Content() {
                   </div>
                 </div>
               </div>
-              <react-comment> end commonbox3 </react-comment>
               <button class="btndown2" id="btndown2">
                 <i class="iconfont"></i> 下载此文档
               </button>
@@ -472,7 +471,6 @@ export default function Content() {
                     </ul>
                   </div>
                 </div>
-                <react-comment> end commonbox3 </react-comment>
               </div>
               <div class="stab-con" id="catalog_tab">
                 <div class="side-default">
@@ -594,10 +592,7 @@ export default function Content() {
                 </div>
               </div>
             </div>
-            <react-comment> end boxright </react-comment>
             <div class="boxleft" id="boxleft">
-              <react-comment> zip </react-comment>
-
               <div class="commonbox2 doctopbox" id="box1">
                 <div class="doctopic">
                   <h1 title="金属切削机床型号编制方法(国家标准)">
