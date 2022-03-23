@@ -15,8 +15,8 @@ export default function Doc88() {
       <Header />
       <ToolBar />
       <Content />
-      <ActiveList />
       <TopLayerShop />
+      <ActiveList />
       <Footer />
     </React.Fragment>
   );

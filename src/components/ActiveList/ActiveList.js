@@ -96,7 +96,6 @@ export default function ActiveList() {
             </div>
           </div>
         </div>
-        <div class="clearfix"></div>
       </div>
     </React.Fragment>
   );
