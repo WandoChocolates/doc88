@@ -1,4 +1,7 @@
 import React from "react";
+import "./TopLayerShop.scss";
+
+import { Icon } from "semantic-ui-react";
 
 import "./1150.css";
 import "./core-v2.css";
@@ -6,18 +9,40 @@ import "./core-v2.css";
 export default function TopLayerShop() {
   return (
     <React.Fragment>
-      <div class="toplayer-shop" style={{ right: "25.5px" }}>
+      <div class="toplayer-shop">
+        <div class="gotop" id="cart">
+          <a
+            href="/shopping_cart.php?act=cart"
+            title="购物车"
+            class="imglogo"
+            target="_blank"
+          >
+            <i class="iconfont">
+              <Icon name="shop" />
+            </i>
+            <span class="car-num"></span>
+          </a>
+          <a
+            href="/shopping_cart.php?act=cart"
+            title="购物车"
+            class="txtlogo"
+            target="_blank"
+          >
+            购物
+            <br />车
+          </a>
+        </div>
         <div class="gotop">
           <a
-            onclick="Common.doEvent('rtools_daoke_read')"
             href="http://www.doc88.com/p-7015833022915.html"
             title="稻壳阅读"
             class="imglogo"
           >
-            <i class="iconfont"></i>
+            <i class="iconfont">
+              <Icon name="microsoft" />
+            </i>
           </a>
           <a
-            onclick="Common.doEvent('rtools_daoke_read')"
             href="http://www.doc88.com/p-7015833022915.html"
             title="稻壳阅读"
             class="txtlogo"
@@ -27,22 +52,17 @@ export default function TopLayerShop() {
             阅读
           </a>
         </div>
-        <div
-          class="gotop"
-          id="wx_read"
-          style={{ display: "block" }}
-          onclick="weixin_read('7015833022915')"
-        >
+        <div class="gotop" id="wx_read" style={{ display: "block" }}>
           <a
-            onclick="Common.doEvent('rtools_weixin_read')"
             href="http://www.doc88.com/p-7015833022915.html"
             title="微信阅读"
             class="imglogo"
           >
-            <i class="iconfont"></i>
+            <i class="iconfont">
+              <Icon name="weixin" />
+            </i>
           </a>
           <a
-            onclick="Common.doEvent('rtools_weixin_read')"
             href="http://www.doc88.com/p-7015833022915.html"
             title="微信阅读"
             class="txtlogo"
@@ -52,17 +72,17 @@ export default function TopLayerShop() {
             阅读
           </a>
         </div>
-        <div class="gotop" id="app_read" onclick="app_read('7015833022915')">
+        <div class="gotop" id="app_read">
           <a
-            onclick="Common.doEvent('rtools_app_read')"
             href="http://www.doc88.com/p-7015833022915.html"
             title="APP阅读"
             class="imglogo"
           >
-            <i class="iconfont"></i>
+            <i class="iconfont">
+              <Icon name="android" />
+            </i>
           </a>
           <a
-            onclick="Common.doEvent('rtools_app_read')"
             href="http://www.doc88.com/p-7015833022915.html"
             title="APP阅读"
             class="txtlogo"
@@ -74,15 +94,15 @@ export default function TopLayerShop() {
         </div>
         <div class="gotop" id="gotop">
           <a
-            onclick="Common.doEvent('rtools_goto_top')"
             href="http://www.doc88.com/p-7015833022915.html"
             title="返回顶部"
             class="imglogo"
           >
-            <i class="iconfont"></i>
+            <i class="iconfont">
+              <Icon name="angle up" />
+            </i>
           </a>
           <a
-            onclick="Common.doEvent('rtools_goto_top')"
             href="http://www.doc88.com/p-7015833022915.html"
             title="返回顶部"
             class="txtlogo"

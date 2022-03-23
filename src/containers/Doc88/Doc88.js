@@ -7,7 +7,7 @@ import Content from "../Content/Content";
 import ActiveList from "../../components/ActiveList/ActiveList";
 import Footer from "../../components/Footer/Footer";
 
-import TopLayerShop from "../../components/Copy/Copy";
+import TopLayerShop from "../../components/TopLayerShop/TopLayerShop";
 
 export default function Doc88() {
   return (

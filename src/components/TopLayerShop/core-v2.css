@@ -42,54 +42,6 @@ a.down-error {
 
 
 
-
-
-.toplayer-shop {
-    position: fixed;
-    right: 10px;
-    bottom: 85px;
-    width: 50px;
-}
-.gotop {
-    position: relative;
-    width: 48px;
-    height: 48px;
-    cursor: pointer;
-    text-align: center;
-    transition: background 1s;
-    -moz-transition: background 1s;
-    -webkit-transition: background 1s;
-    -o-transition: background 1s;
-    font-size: 16px;
-    line-height: 18px;
-}
-.gotop a {
-    color: #999;
-    text-decoration: none;
-}
-.gotop .imglogo {
-    display: block;
-}
-.gotop .txtlogo {
-    display: none;
-}
-.gotop a .iconfont {
-    font-size: 24px;
-    line-height: 48px;
-}
-.gotop:hover {
-    background: #a3a3a3;
-}
-.gotop:hover a {
-    color: #fff;
-}
-.gotop:hover a.imglogo {
-    display: none;
-}
-.gotop:hover a.txtlogo {
-    display: block;
-    padding-top: 6px;
-}
 .layoutfull, .layout01, .layout02, .layout03 {
     padding: 10px 0;
     overflow: hidden;
@@ -923,89 +875,13 @@ a.down-error {
 .main-header {
     position: relative;
 }
-.usershop {
-    position: absolute;
-    top: 0;
-    right: 0;
-    white-space: nowrap;
-}
-.usershop ul li {
-    float: left;
-    padding: 0 0 0 10px;
-    -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-    transition: opacity .3s ease, width .3s ease, -webkit-transform .3s ease;
-    transition: opacity .3s ease, width .3s ease, transform .3s ease;
-    transition: opacity .3s ease, width .3s ease, transform .3s ease, -webkit-transform .3s ease;
-}
+
 .upload-button-hide {
     opacity: 0;
     filter: alpha(opacity=0);
     transform: scale(0);
 }
-.usershop ul li.shop1.last {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.usershop .user1, .usershop .user2 {
-    position: relative;
-    line-height: 30px;
-    color: #ccc;
-}
-.usershop .user1 {
-    padding: 10px;
-}
-.usershop .user1 a, .usershop .user2 a {
-    color: #ccc;
-    text-decoration: none;
-}
-.usershop .user1 a:hover, .usershop .user2 a:hover {
-    color: #eee;
-}
-.usershop .user2 .mycenter {
-    display: block;
-    padding: 10px 25px 10px 10px;
-    background-image: url(../images/icons/mainnav-arr1.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    transition: background 1s;
-    -moz-transition: background 1s;
-    -webkit-transition: background 1s;
-    -o-transition: background 1s;
-}
-.usershop .user2:hover, .usershop .user2 .mycenter:hover {
-    background-color: black;
-}
-.usershop .user2 .gravatar, .usershop .user2 .gravatar img {
-    width: 30px;
-    height: 30px;
-    border-radius: 2px;
-}
-.usershop .user2 .gravatar {
-    position: relative;
-}
-.usershop .user2 .gravatar .hint {
-    width: 16px;
-    height: 16px;
-    background: url(../images/icons/hint.png) no-repeat center;
-    display: inline-block;
-    vertical-align: -4px;
-    position: absolute;
-    top: -6px;
-    right: -8px;
-}
-.login-bar-con {
-    position: absolute;
-    top: 0;
-    right: 470px;
-}
-.search-bar-con {
-    position: absolute;
-    right: 0;
-    top: 10px;
-    z-index: 4;
-    width: 470px;
-}
+
 .dorpmenu1, .dorpmenu2 {
     position: absolute;
     z-index: 1;

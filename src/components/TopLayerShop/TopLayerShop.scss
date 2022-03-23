@@ -1,0 +1,44 @@
+.toplayer-shop {
+  position: fixed;
+  right: 25.5px;
+  bottom: 85px;
+  width: 50px;
+}
+
+.gotop {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 1s;
+  font-size: 16px;
+  line-height: 18px;
+}
+.gotop a {
+  color: #999;
+  text-decoration: none;
+}
+.gotop .imglogo {
+  display: block;
+}
+.gotop .txtlogo {
+  display: none;
+}
+.gotop a .iconfont {
+  font-size: 24px;
+  line-height: 48px;
+}
+.gotop:hover {
+  background: #a3a3a3;
+}
+.gotop:hover a {
+  color: #fff;
+}
+.gotop:hover a.imglogo {
+  display: none;
+}
+.gotop:hover a.txtlogo {
+  display: block;
+  padding-top: 6px;
+}
